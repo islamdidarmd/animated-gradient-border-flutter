@@ -1,4 +1,4 @@
-# gradient_progressbar_flutter
+# Animated Gradient Border in Flutter
 
 Custom Painting: Draw Gradient Border in Flutter
 
