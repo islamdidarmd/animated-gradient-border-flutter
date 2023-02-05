@@ -1,16 +1,9 @@
-# gradient_progressbar_flutter
+# Animated Gradient Border in Flutter
 
-A new Flutter project.
+Custom Painting: Draw Gradient Border in Flutter
 
-## Getting Started
+Medium article: 
+1. Part 1: https://medium.com/@islamdidarmd/custom-painting-draw-gradient-border-in-flutter-part-1-c2b2b147a14f
+2. Part 2: https://islamdidarmd.medium.com/custom-painting-draw-gradient-border-in-flutter-part-2-e8a3b5555513
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![ezgif-2-46e2843b0f](https://user-images.githubusercontent.com/27812028/216831543-e2973c69-093d-4460-acad-7d44b3ca5fb0.gif)
