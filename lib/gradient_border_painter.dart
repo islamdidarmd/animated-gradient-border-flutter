@@ -1,16 +1,14 @@
 import 'package:flutter/material.dart';
 
 class GradientBorderPainter extends CustomPainter {
-  final double height;
-  final double width;
+  final double radius;
   final double strokeWidth;
   final Gradient gradient;
   final _paint = Paint()..style = PaintingStyle.stroke;
 
   GradientBorderPainter({
     Key? key,
-    required this.height,
-    required this.width,
+    required this.radius,
     required this.strokeWidth,
     required this.gradient,
   });
@@ -18,15 +16,14 @@ class GradientBorderPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final center = Offset(size.width / 2, size.height / 2);
-    final rect = Rect.fromCenter(
+    final rect = Rect.fromCircle(
       center: center,
-      width: width,
-      height: height,
+      radius: radius,
     );
     _paint
       ..strokeWidth = strokeWidth
       ..shader = gradient.createShader(rect);
-    canvas.drawRect(rect, _paint);
+    canvas.drawCircle(center, radius, _paint);
   }
 
   @override
