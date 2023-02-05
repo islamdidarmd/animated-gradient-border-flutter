@@ -16,9 +16,9 @@ class HomePage extends StatelessWidget {
           height: 100,
           width: 100,
           child: Stack(
-            children: [
-              const FlutterDashImage(),
-              const GradientBorderPaint(),
+            children: const [
+              FlutterDashImage(),
+              GradientBorderPaint(),
             ],
           ),
         ),
